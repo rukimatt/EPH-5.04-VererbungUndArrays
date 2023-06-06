@@ -21,8 +21,7 @@ public class Lehrer {
      * @param besoldungsGruppe    Gehaltsstufen von Lehrern
      */
     public Lehrer(String name, int alter, String besoldungsGruppe) {
-        this.name = name;
-        this.alter = alter;
+       super(name, alter);
         this.besoldungsGruppe = besoldungsGruppe;
     }
 

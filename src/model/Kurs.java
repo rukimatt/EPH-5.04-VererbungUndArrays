@@ -47,6 +47,8 @@ public class Kurs {
      */
     public void addSchueler(Schueler neuerSchueler){
         //TODO Hinzufügen eines Schülers zu einem Kurs.
+
+
     }
 
     /**
@@ -55,7 +57,7 @@ public class Kurs {
      * @return
      */
     public String getInfo(){
-        String info = "";
+        String info = "Kurs (Kursbezeichnung, Fach, Lehrer, Schülernamen)";
         //TODO Kompakte Zeichenkette zu den Informationen eines Kurses - gut lesbar!
         return info;
     }
