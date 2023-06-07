@@ -3,7 +3,7 @@ package model;
 /**
  * Created by Jean-Pierre on 10.05.2017.
  */
-public class Lehrer {
+public class Lehrer extends AllgemeineLeitung {
 
     //Attribute
     private String name;

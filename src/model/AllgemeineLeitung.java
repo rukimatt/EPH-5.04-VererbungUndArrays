@@ -10,7 +10,7 @@ public class AllgemeineLeitung {
     //Referenzen
     protected Kurs[] kurse;
 
-    public AllgemeineLeistung(String name, int alter){
+    public AllgemeineLeitung(String name, int alter){
         this.name = name;
         this.alter = alter;
     }
